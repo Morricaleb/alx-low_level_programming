@@ -33,4 +33,16 @@ int main(void)
 
 				if (c + d != 17)
 				{
-gyyiii
+					putchar(',');
+					putchar(' ');
+				}
+			}
+
+			c++;
+		}
+		d++;
+	}
+	putchar('\n');
+	return (0);
+}
+
