@@ -15,3 +15,22 @@
  * You are not allowed to use any variable of type char
  * All your code should be in the main function
  * Return: 0
+ */
+int main(void)
+{
+	int c;
+	int d = 0;
+
+	while (d < 10)
+	{
+		c = 0;
+		while (c < 10)
+		{
+			if (d != c && d < c)
+			{
+				putchar('0' + d);
+				putchar('0' + c);
+
+				if (c + d != 17)
+				{
+gyyiii
